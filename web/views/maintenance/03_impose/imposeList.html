@@ -1,0 +1,126 @@
+<!-- 타이틀 시작 -->
+<div class="row">
+	<div id="breadcrumb" class="col-xs-12">
+		<!-- 삼디다스 버튼 -->
+		<a href="#" class="show-sidebar">
+			<i class="fa fa-bars"></i>
+		</a>
+		<ol class="breadcrumb pull-left">
+			<!-- 첫번째 타이틀 시작 -->
+			<li><a href="/employee/index.html">관리비관리</a></li>
+			<!-- 두번째 하위 메뉴 시작 -->
+			<li><a href="#">관리비부과처리</a></li>
+			<!-- 세번째 하위 메뉴 시작 -->
+			<!--li><a href="#">전월발생금액가져오기</a></li-->
+		</ol>		
+	</div>
+</div>
+<!-- 타이틀 끝 -->
+<!-- 소제목 시작 -->
+<blockquote>
+	<p>관리비부과처리</p>
+</blockquote>
+<!-- 소제목 끝 -->
+<!--버튼 시작-->
+<div class="pull-right">
+	<button type="button" class="btn btn-primary btn-xs">조회</button>
+	<button type="button" class="btn btn-success btn-xs">저장</button>
+</div>	
+<!-- 버튼 끝 -->
+<!-- search -->
+<div class="row">
+	<div class="col-xs-12">
+		<div class="box">
+			<div class="box-header">
+				<div class="box-name">
+					<i class="fa fa-search"></i>
+					<span>검색조건</span>
+				</div>
+				<!--div class="box-icons">
+					<a class="collapse-link">
+						<i class="fa fa-chevron-up"></i>
+					</a>
+					<a class="expand-link">
+						<i class="fa fa-expand"></i>
+					</a>
+					<a class="close-link">
+						<i class="fa fa-times"></i>
+					</a>
+				</div-->
+				<!--div class="no-move"></div-->
+			</div>
+			<div class="box-content">
+				<h4 class="page-header">고지서 구분</h4>
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<select class="form-control">
+							<option>관리비</option>
+							<option>징수대행</option>
+						</select>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+// Run Select2 on element
+function Select2Test(){
+	$("#el2").select2();
+}
+$(document).ready(function() {
+	// Load script of Select2 and run this
+	LoadSelect2Script(Select2Test);
+	WinMove();
+});
+</script>
+<!-- search 끝 -->
+<!-- 테이블 샘플-->
+
+<div class="table-responsive">
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th class="text-center">코드</th>
+				<th class="text-center">부과항목</th>
+				<th class="text-center">부과기준</th>
+				<th class="text-center">부과세부항목명</th>
+				<th class="text-center">당월발생금액</th>
+				<th class="text-center">부과금액</th>
+				<th class="text-center">부과차액</th>
+				<th class="text-center">
+					<div class="checkbox-inline">
+						<label>
+							<input type="checkbox">
+							<i class="fa fa-square-o small"></i>
+						</label>
+					</div>
+				재부과선택</th>
+				<th class="text-center">전월부과금액</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td class="text-center">
+					<div class="checkbox-inline">
+						<label>
+							<input type="checkbox">
+							<i class="fa fa-square-o small"></i>
+						</label>
+					</div>
+				</td>
+				<td></td>
+			</tr>
+			
+		</tbody>
+	</table>
+</div>
