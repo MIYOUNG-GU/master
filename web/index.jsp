@@ -4,7 +4,7 @@
 <html lang="ko">
 <head>
 	<meta charset="utf-8">
-	<title>HiAPTProject</title>
+	<title>HiAPTProject.</title>
 	<meta name="description" content="description">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="/master/resources/plugins/bootstrap/bootstrap.css" rel="stylesheet">
