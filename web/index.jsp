@@ -250,13 +250,13 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle">
 								<i class="fa fa-desktop"></i>
-								<span class="hidden-xs">UI Elements</span>
+								<span class="hidden-xs">홈페이지관리</span>
 							</a>
 							<ul class="dropdown-menu">
-								<li><a class="ajax-link" href="/master/views/ajax/ui_grid.html">Grid</a></li>
-								<li><a class="ajax-link" href="/master/views/ajax/ui_buttons.html">Buttons</a></li>
-								<li><a class="ajax-link" href="/master/views/ajax/ui_progressbars.html">Progress Bars</a></li>
-								<li><a class="ajax-link" href="/master/views/ajax/ui_jquery-ui.html">Jquery UI</a></li>
+								<li><a class="ajax-link" href="/master/nlist.ad">공지사항</a></li>
+								<li><a class="ajax-link" href="/master/views/ajax/ui_buttons.html">민원관리</a></li>
+								<li><a class="ajax-link" href="/master/views/ajax/ui_progressbars.html">자유게시판</a></li>
+								<li><a class="ajax-link" href="/master/views/ajax/ui_jquery-ui.html">주민투표</a></li>
 								<li><a class="ajax-link" href="/master/views/ajax/ui_icons.html">Icons</a></li>
 							</ul>
 						</li>
